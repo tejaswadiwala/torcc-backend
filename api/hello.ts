@@ -8,4 +8,5 @@ async function handler(req: VercelRequest, res: VercelResponse) {
   })
 }
 
+
 module.exports = allowCors(handler)
